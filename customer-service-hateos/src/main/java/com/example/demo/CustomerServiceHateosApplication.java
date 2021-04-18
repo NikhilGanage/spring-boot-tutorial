@@ -16,6 +16,7 @@ public class CustomerServiceHateosApplication {
 		SpringApplication.run(CustomerServiceHateosApplication.class, args);
 	}
 	
+	// Command Line to insert rows in Customer table while starting app
 	@Bean
 	public CommandLineRunner runner() {
 		
